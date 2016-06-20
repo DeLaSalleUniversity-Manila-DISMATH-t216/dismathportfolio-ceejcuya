@@ -1,7 +1,7 @@
 # dismathportfolio-ceejcuya
 Clarisse Mary Joy C. Aguilar
 
-# June 16, 2016
+## Week 1
 On our first day of lecture, the class had discussed about Propositions. A proposition is a declarative statement that should be either true or false. Propositions have different operations as well.
 
 These are: (example, let p and q be propositions)
@@ -21,3 +21,9 @@ These are:
 Biconditional Statements are shown as "p ↔ q" and is true when both p → q and q → p are true.
 
 Afterwards, we answered some exercises from the reference book regarding the said lecture today. Since it was in alphabetical order, the loop started with my surname. I had managed to answer most questions every time it's my turn. As far as I remember, I had answered letters a and h from number 8, letter d from number 21, letter b from number 27 and almost got the right answers for letter e from number 15 and letter d from number 29.
+
+## Homework 1
+31. a. p ∧ ¬p
+| p | ¬p | p ∧ ¬p |
+|:---:|:---:|:---:|
+| T | F | F |
