@@ -30,9 +30,9 @@ Afterwards, we answered some exercises from the reference book regarding the sai
   | T | F | F |
   | F | T | F |
 
-- 33.b. (p xor q) → (p ∧ q)
+- 33.b. (p ⊕  q) → (p ∧ q)
 
-  | p | q | p ⊕ q | p ∧ q | (p xor q) → (p ∧ q) |
+  | p | q | (p ⊕  q) | p ∧ q) | (p ⊕  q) → (p ∧ q) |
   | :---: | :---: | :---: | :---: | :---: |
   | T | T | F | T | T |
   | T | F | T | F | F |
