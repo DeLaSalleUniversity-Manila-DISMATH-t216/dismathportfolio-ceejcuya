@@ -23,7 +23,40 @@ Biconditional Statements are shown as "p ↔ q" and is true when both p → q an
 Afterwards, we answered some exercises from the reference book regarding the said lecture today. Since it was in alphabetical order, the loop started with my surname. I had managed to answer most questions every time it's my turn. As far as I remember, I had answered letters a and h from number 8, letter d from number 21, letter b from number 27 and almost got the right answers for letter e from number 15 and letter d from number 29.
 
 ## Homework 1
-31. a. p ∧ ¬p
-| p | ¬p | p ∧ ¬p |
-|:---:|:---:|:---:|
-| T | F | F |
+- 31.a. p ∧ ¬p
+
+  | p | ¬p | p ∧ ¬p |
+  | :---: | :---: | :---: |
+  | T | F | F |
+  | F | T | F |
+
+- 33.b. (p xor q) → (p ∧ q)
+
+  | p | q | p ⊕ q | p ∧ q | (p xor q) → (p ∧ q) |
+  | :---: | :---: | :---: | :---: | :---: |
+  | T | T | F | T | T |
+  | T | F | T | F | F |
+  | F | T | T | F | F |
+  | F | F | F | F | T |
+  
+- 35.c. (p → q) ∨ (¬p → q)
+
+  | p | q | ¬p | p → q | ¬p → q | (p → q) ∨ (¬p → q) |
+  | :---: | :---: | :---: | :---: | :---: | :---: |
+  | T | T | F | T | T | T |
+  | T | F | F | F | T | T |
+  | F | T | T | T | T | T |
+  | F | F | T | T | F | T |
+  
+- 37.d. (p → q) ∧ (¬p → r)
+
+  | p | q | r | ¬p | p → q | ¬p → r | (p → q) ∧ (¬p → r) |
+  | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+  | T | T | T | F | T | T | T |
+  | T | T | F | F | T | T | T |
+  | T | F | T | F | F | T | F |
+  | T | F | F | F | F | T | F |
+  | F | T | T | T | T | T | T |
+  | F | T | F | T | T | F | F |
+  | F | F | T | T | T | T | T |
+  | F | F | F | T | T | F | F |
