@@ -22,7 +22,7 @@ Biconditional Statements are shown as "p ↔ q" and is true when both p → q an
 
 Afterwards, we answered some exercises from the reference book regarding the said lecture today. Since it was in alphabetical order, the loop started with my surname. I had managed to answer most questions every time it's my turn. As far as I remember, I had answered letters a and h from number 8, letter d from number 21, letter b from number 27 and almost got the right answers for letter e from number 15 and letter d from number 29.
 
-## Homework 1 : June 16, 2016
+### Homework 1 : June 16, 2016
 - 31.a. p ∧ ¬p
 
   | p | ¬p | p ∧ ¬p |
@@ -119,4 +119,17 @@ Afterwards, we answered some exercises from the reference book regarding the sai
   | ∃x∀yP(x,y) | There is an x for which P(x,y) is true for every y. | For every x there is a y for which P(x,y) is false. |
   | ∃x∃yP(x,y) | There is  pair x, y for which P(x,y) is true. | P(x,y) is false for every pair x, y. |
   
+- Lastly, we discussed about the Rules of Inference. Here, we were taught how to prove through an argument, which is a sequence of statements that end with a conclusion. To make argument valid, the conclusion must follow from the truth of the premises of the argument itself. Premises are preceding statements. There is also what we call, invalid arguments, which are led by incorrect reasonings that are called fallacies. Another way to prove an argument is valid is through the use of the truth table. However, if an argument involves more than three different propositional variables, the truth table method becomes a tedious approach. Hence, we can do the rules of inference which we first establish the validity of some relatively simple argument forms. The table below shows different kinds of rules of inference:
+
+  | Name | Tautology |
+  | :---: | :---: |
+  | Modus Ponens | (p ∧ (p → q)) → q |
+  | Modus Tollens | (¬p ∧ (p → q)) → ¬p |
+  | Hypothetical Syllogism | ((p → q) ∧ (q → r)) → (p → r) |
+  | Disjunctive Syllogism | ((p ∨ q) ∨ ¬p) → q |
+  | Addition | p → (p ∨ q) |
+  | Simplification | (p ∧ q) → p |
+  | Conjunction | ((p) ∧ (q)) → (p ∧ q)
+  | Resolution | ((p V q) ∧ (¬p V r)) → (q V r) |
   
+
