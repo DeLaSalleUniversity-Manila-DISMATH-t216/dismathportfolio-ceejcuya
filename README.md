@@ -132,4 +132,38 @@ Afterwards, we answered some exercises from the reference book regarding the sai
   | Conjunction | ((p) ∧ (q)) → (p ∧ q)
   | Resolution | ((p V q) ∧ (¬p V r)) → (q V r) |
   
+## Answered parts in recitation:
+Chapter 1.3. Propositional Equivalences
 
+- 7.a. Jan is not rich or not happy.
+- 15. (¬p ∧ (p → q)) → ¬p is Tautology. (Through Truth Table:)
+
+  | p | q | ¬p | p → q | (¬p ∧ (p → q)) | (¬p ∧ (p → q)) → ¬p |
+  | :---: | :---: | :---: | :---: | :---: | :---: |
+  | T | T | F | T | F | T |
+  | T | F | F | F | F | T |
+  | F | T | T | T | T | T |
+  | F | F | T | T | T | T |
+  
+- 17. ¬(p ↔ q) ≡ p ↔ ¬q are logically equivalent. (Through Truth Table:)
+
+  | p | q | p ↔ q | ¬(p ↔ q) | ¬q | p ↔ ¬q |
+  | :---: | :---: | :---: | :---: | :---: | :---: |
+  | T | T | T | F | F | F |
+  | T | F | F | T | T | T |
+  | F | T | F | T | F | T |
+  | F | F | T | F | T | F |
+  
+- Special Exercise:
+
+  | (p ∧ (p → q)) → q | Logical Equivalence used |
+  | :---: | :---: |
+  | p ∧ (¬p V q)) → q | Implication Equivalence |
+  | (p ∧ ¬p) V (p ∧ q) → q | Distribution Law |
+  | F V (p ∧ q) → q | Negation Law |
+  | (F V p) ∧ (F V q) → q | Distribution Law |
+  | (p ∧ q) → q | Identity Law |
+  | ¬(p ∧ q) V q | Implication Equivalence |
+  | ¬p V (¬q V q) | De Morgan's Law and Associative Law |
+  | ¬p V T ≡ T | Domination Law |
+  
