@@ -101,3 +101,22 @@ Afterwards, we answered some exercises from the reference book regarding the sai
   | :---: | :---: | :---: | :---: | :---: |
   | Universal | P(x) for all values of x in the domain | ∀xP(x) | P(x) is true for every x | There is an x for which P(x) is false |
   | Existential | There exists an element x in the domain such that P(x) | ∃xP(x) | There is an x for which P(x) is true | P(x) is false for every x |
+
+- Some logical equivalences were also derived from Quantifiers. These are:
+  
+  | Logical Equivalence |
+  | :---: |
+  | ¬(∀xP(x)) ≡ ∃x¬P(x) |
+  | ¬(∃xP(x)) ≡ ∀x¬P(x) |
+
+- Furthermore, we had a reading assignment about Nested Quantifiers. They are complex quantifiers which usually happen in Mathematics, Computer Science and other courses involving logic. It is highly important that we take note about the order of the quantifiers, unless all the given are universal quantifiers or all are existential quantifiers. The table below shows the definition of the quantifications of two variables:
+
+  | Statement | When True | When False |
+  | :---: | :---: | :---: |
+  | ∀x∀yP(x,y) | P(x,y) is true for every pair x, y. | There is a pair x, y for which P(x, y) is false. |
+  | ∀y∀xP(x,y) | | |
+  | ∀x∃yP(x,y) | For every x there is a y for which P(x,y) is true. | There is an x such that P(x,y) is false for every y. |
+  | ∃x∀yP(x,y) | There is an x for which P(x,y) is true for every y. | For every x there is a y for which P(x,y) is false. |
+  | ∃x∃yP(x,y) | There is  pair x, y for which P(x,y) is true. | P(x,y) is false for every pair x, y. |
+  
+  
