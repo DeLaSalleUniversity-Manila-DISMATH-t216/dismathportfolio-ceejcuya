@@ -60,3 +60,44 @@ Afterwards, we answered some exercises from the reference book regarding the sai
   | F | T | F | T | T | F | F |
   | F | F | T | T | T | T | T |
   | F | F | F | T | T | F | F |
+
+## Week 2
+- Firstly, we had discussed about compound propositions. Compound propositions are expressions formed from propositional variables with the use of logical operators. The three kinds of compound propositions are:
+
+  | Compound Proposition | Definition |
+  | :---: | :---: |
+  | Tautology | compound proposition is always true |
+  | Contradiction | compound proposition is always false |
+  | Contingency | compound proposition is neither Tautology nor Contradiction |
+  
+- From these compound propositions, logical equivalences are derived. They are compound propositions having the same truth values in all possible cases. The table below shows a list of the logical equivalences that will be often used.
+
+  | Name | Logical Equivalence |
+  | :---: | :---: |
+  | Identity Laws | p ∧ T ≡ p |
+  | | p ∨ F ≡ p |
+  | Domination Laws | p ∨ T ≡ T |
+  | | p ∧ F ≡ F |
+  | Idempotent Laws | p ∨ p ≡ p |
+  | | p ∧ p ≡ p |
+  | Double Negation Law | ¬(¬p) ≡ p |
+  | Commutative Laws | p ∨ q ≡ q ∨ p |
+  | | p ∧ q ≡ q ∧ p |
+  | Associative Laws | (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)
+  | | (p ∧ q) ∧ r ≡ p ∧ (q ∧ r) |
+  | Distributive Laws | p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r) |
+  | | p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r) |
+  | De Morgan's Laws | ¬(p ∧ q) ≡ ¬p ∨ ¬q |
+  | | ¬(p ∨ q) ≡ ¬p ∧ ¬q |
+  | Absorption Laws | p  (p ∧ q) ≡ p |
+  | | p ∧ (p ∨ q) ≡ p |
+  | Negation Laws | p ∨ ¬p ≡ T |
+  | | p ∧ ¬p ≡ F |
+  | *Implication Equivalence | p → q ≡ ¬p ∨ q |
+  
+- On our second meeting for the week, we had discussed about Quantifiers. Quantification expresses a predicate, which is a property that the subject of the statement can have, that is true over a range of elements. There are two types of Quantifiers:
+
+  | Quantifier | Definition | Statement | When True | When False |
+  | :---: | :---: | :---: | :---: | :---: |
+  | Universal | P(x) for all values of x in the domain | ∀xP(x) | P(x) is true for every x | There is an x for which P(x) is false |
+  | Existential | There exists an element x in the domain such that P(x) | ∃xP(x) | There is an x for which P(x) is true | P(x) is false for every x |
