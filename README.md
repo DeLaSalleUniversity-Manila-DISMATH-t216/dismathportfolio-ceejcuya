@@ -132,11 +132,11 @@ Afterwards, we answered some exercises from the reference book regarding the sai
   | Conjunction | ((p) ∧ (q)) → (p ∧ q)
   | Resolution | ((p V q) ∧ (¬p V r)) → (q V r) |
   
-## Answered parts in recitation:
+#### Answered parts in recitation:
 Chapter 1.3. Propositional Equivalences
 
 - 7.a. Jan is not rich or not happy.
-- 15. (¬p ∧ (p → q)) → ¬p is Tautology. (Through Truth Table:)
+- 15 (¬p ∧ (p → q)) → ¬p is Tautology. (Through Truth Table:)
 
   | p | q | ¬p | p → q | (¬p ∧ (p → q)) | (¬p ∧ (p → q)) → ¬p |
   | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -145,7 +145,7 @@ Chapter 1.3. Propositional Equivalences
   | F | T | T | T | T | T |
   | F | F | T | T | T | T |
   
-- 17. ¬(p ↔ q) ≡ p ↔ ¬q are logically equivalent. (Through Truth Table:)
+- 17 ¬(p ↔ q) ≡ p ↔ ¬q are logically equivalent. (Through Truth Table:)
 
   | p | q | p ↔ q | ¬(p ↔ q) | ¬q | p ↔ ¬q |
   | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -167,3 +167,33 @@ Chapter 1.3. Propositional Equivalences
   | ¬p V (¬q V q) | De Morgan's Law and Associative Law |
   | ¬p V T ≡ T | Domination Law |
   
+Chapter 1.4. Predicates and Quantifiers
+
+- 1.a. True b. True c. False
+- 7.a. All comedians are funny.
+- 9.d. ∀x¬(P(x) V Q(x))
+- 13.a. ∀n(n + 1 > n) ≡ T
+- 15.d. ∃n(n^2 < 0) ≡ F
+- 17.f. negation then conjunction
+
+Chapter 1.5. Nested Quantifiers
+
+- 3.d. There exist some students who received an e-mail from the whole class.
+
+Chapter 1.6. Rules of Inference
+
+- example of Modus Tollens: Punu is not cute and if she is cuddly then she is cute, therefore, Punu is not cuddly.
+- Special Exercise:
+
+  | ((p V q) ∧ (¬p V r)) → (q V r) | Logical Equivalence used |
+  | :---: | :---: |
+  | ¬((p V q) V (¬p V r)) → (q V r) | De Morgan's Law |
+  | ¬((p V ¬p) V (q V r)) → (q V r) | Associative Law |
+  | ¬(T V (q V r) → (q V r) | Negation Law |
+  | ¬(¬(T V (q V r) V (q V r) | Implication Equivalence |
+  | T V (q V r) V (q V r) | Double Negation Law |
+  | T V (q V q) V (r V r) | Associative Law |
+  | T V (q V r) | Idempotent then Associative Law |
+  | T V (q V r) ≡ T | Domination Law |
+  
+#### Homework 2 : June 23, 2016
