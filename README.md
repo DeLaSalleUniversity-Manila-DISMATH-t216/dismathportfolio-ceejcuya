@@ -197,3 +197,48 @@ Chapter 1.6. Rules of Inference
   | T V (q V r) ≡ T | Domination Law |
   
 #### Homework 2 : June 23, 2016
+Chapter 1.5.
+- 5.a. Sarah Smith has visited www.att.com.
+- 7.b. There exists some students who like Korean cuisine and all students like Mexican cuisine.
+- 9.c. ∃y∀x L(x,y)
+- 9.f. ∃x∀y(L(x,y) ↔ x=y)
+
+Chapter 1.6.
+- 35 Superman problem
+
+  | Let | Definition |
+| :---: | :---: |
+| A | superman is able |
+| W | superman is willing |
+| I | superman is impotent |
+| P | superman prevents evil |
+| M | superman is malevolent |
+| E | superman exists |
+
+  | per statement |
+  | :---: |
+  | (A ∧ W) → P |
+  | ¬A → I |
+  | ¬W → M |
+  | ¬P |
+  | E → (¬I ∧ ¬M) |
+  | ¬E |
+  
+  | Solution |
+  | :---: |
+  | (A ∧ W) → P ≡ (¬A V ¬W) → ¬P |
+  | |
+  | |
+  | ¬A → I ≡ A V I |
+  | (¬A V ¬W) ∧ (A V I) → (¬W V I) |
+  | |
+  | |
+  | ¬W → M ≡ W V M |
+  | (¬W V I) ∧ (W V M) → <b>(I V M)</b> |
+  | |
+  | |
+  | E → (¬I ∧ ¬M) ≡ ¬E → ¬(¬I ∧ ¬M) |
+  | ¬E → <b>(I V M)</b> |
+  | |
+  | |
+  | Argument is <b>VALID</b>. |
