@@ -233,5 +233,5 @@ Chapter 1.6.
   | ¬A → I ≡ A ∨ I | Implication Equivalence of ¬A → I |
   | A ∨ I<br> ¬A ∨ M<br> ∴ I ∨ M | Resolution of A ∨ I and ¬A ∨ M |
   | I ∨ M ≡ ¬(I ∨ M) ≡ ¬I ∧ ¬M | De Morgan's Law |
-  | ¬(¬I ∧ ¬M)<br> E → (¬I ∧ ¬M)<br> ∴ ¬E | Modus Tollens of ¬I ∧ ¬M and and ¬E |
+  | ¬(¬I ∧ ¬M)<br> E → (¬I ∧ ¬M)<br> ∴ ¬E | Modus Tollens of ¬I ∧ ¬M and ¬E |
   | ∴ ¬E | Therefore Argument is <b>VALID</b> |
