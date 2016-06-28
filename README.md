@@ -194,7 +194,7 @@ Chapter 1.6. Rules of Inference
   | T V (q V r) V (q V r) | Double Negation Law |
   | T V (q V q) V (r V r) | Associative Law |
   | T V (q V r) | Idempotent then Associative Law |
-  | T V (q V r) ≡ T | Domination Law |
+  | T V (q ∨ r) ≡ T | Domination Law |
   
 #### Homework 2 : June 23, 2016
 Chapter 1.5.
@@ -222,23 +222,16 @@ Chapter 1.6.
   | ¬W → M |
   | ¬P |
   | E → (¬I ∧ ¬M) |
-  | ¬E |
+  | ∴ ¬E |
   
-  | Solution |
-  | :---: |
-  | (A ∧ W) → P ≡ (¬A V ¬W) → ¬P |
-  | |
-  | |
-  | ¬A → I ≡ A V I |
-  | (¬A V ¬W) ∧ (A V I) → (¬W V I) |
-  | |
-  | |
-  | ¬W → M ≡ W V M |
-  | (¬W V I) ∧ (W V M) → <b>(I V M)</b> |
-  | |
-  | |
-  | E → (¬I ∧ ¬M) ≡ ¬E → ¬(¬I ∧ ¬M) |
-  | ¬E → <b>(I V M)</b> |
-  | |
-  | |
-  | Argument is <b>VALID</b>. |
+  | Solution | Rule of Inference / Logical Equivalence used |
+  | :--- | :---: |
+  | ¬P<br> (A ∧ W) → P<br> ∴ ¬(A ∧ W) | Modus Tollens of ¬P and (A ∧ W) → P |
+  | ¬(A ∧ W) ≡ ¬A ∨ ¬W ≡ ¬W ∨ ¬A | De Morgan's Law and Commutative Law|
+  | ¬W → M ≡ W → M | Implication Equivalence of ¬W → M |
+  | W ∨ M<br> ¬W ∨ ¬A<br> ∴ M ∨ ¬A ≡ ¬A ∨ M | Resolution of ¬W ∨ ¬A and W → M and Commutative Law of M ∨ ¬A |
+  | ¬A → I ≡ A ∨ I | Implication Equivalence of ¬A → I |
+  | A ∨ I<br> ¬A ∨ M<br> ∴ I ∨ M | Resolution of A ∨ I and ¬A ∨ M |
+  | I ∨ M ≡ ¬(I ∨ M) ≡ ¬I ∧ ¬M | De Morgan's Law |
+  | ¬(¬I ∧ ¬M)<br> E → (¬I ∧ ¬M)<br> ∴ ¬E | Modus Tollens |
+  | ∴ ¬E | Therefore Argument is <b>VALID</b> |
