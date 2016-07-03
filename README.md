@@ -273,3 +273,50 @@ From the Example/Exercises part of Chapter 1.6, I have been able to answer the f
 
   With the truth table shown above, it clearly states that this is not Tautology, therefore it is <b>Fallacy</b>. And it is also not valid because the equivalence should be <b>q ∧ (p → q) → q</b> to match the truth table.
   
+After concluding Chapter 1.6 by answering some problems, we then go to the next part which is Chapter 1.7 or Introduction to Proofs. A proof is a valid argument that establishes the truth of a mathematical statement and may use the hypotheses of the theorem. For this section, the methods of proof discussed are used to prove mathematical theorems. A theorem is a statement that can be shown to be true. They may also be referred to as facts or results. Less important theorems are sometimes called propositions. A less important theorem that is helpful in the proof of other results is called lemma. Proving through a series of lemmas help us understand proofs which are complicated. A corollary is a theorem that can be established directly from a theorem that has been proved. A conjecture is a statement that is being proposed to be a true statement. This is usually based on some partial evidence or intuition.
+
+| Methods of Proving | Definition |
+| :---: | :--- |
+| Direct Proof | if p → q, prove p is true |
+| Proof by Contraposition | if p → q ≡ ¬q → ¬p, prove ¬q is true |
+| Proof by Contradiction | p is true when ¬p → (r ∧ ¬r) is true for some proposition r |
+| Vacuous Proof | p → q must be true when p is false |
+| Proofs of Equivalence | prove a biconditional statement p ↔ q by showing p → q and q → p are both true |
+
+Chapter 1.7 answered parts :
+
+- 1 Use a Direct Proof to show that the sum of two odd integers is even.
+  
+  | Let | be |
+  | :---: | :--- |
+  | n | a + c |
+  | a | 2b + 1 |
+  | c | 2d + 1 |
+  
+  | Solution | |
+  | ---: | :--- |
+  | n = | a + c |
+  | a + c = | ((2b + 1) + (2d + 1)) |
+  | a + c = | 2 (b + d + 1) |
+  | let k = | b + d + 1 |
+  | <b>n =</b> | <b>2*k</b> |
+
+- 15 Use proof by contraposition to show that if x + y ≥ 2 where x and y are real numbers, then x ≥ 1 or y ≥ 1.
+  
+  | Let | be |
+  | :---: | :--- |
+  | p | x + y ≥ 2 |
+  | q | x ≥ 1 ∨ y ≥ 1 |
+
+  By contraposition : p → q ≡ ¬q → ¬p
+  
+  | Let | be |
+  | :---: | :--- |
+  | ¬p | x + y < 2 |
+  | ¬q | x < 1 ∧ y < 1 |
+  
+  | Solution | |
+  | ---: | :--- |
+  | if x < 1 and y < 1 | then x + y < 2 |
+  | x + y < 1 + 1 = | x + y < 2 |
+  | <b>x + y < 2 =</b> | <b>x + y < 2</b> |
