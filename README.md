@@ -235,3 +235,41 @@ Chapter 1.6.
   | I ∨ M ≡ ¬(I ∨ M) ≡ ¬I ∧ ¬M | De Morgan's Law |
   | ¬(¬I ∧ ¬M)<br> E → (¬I ∧ ¬M)<br> ∴ ¬E | Modus Tollens of ¬I ∧ ¬M and ¬E |
   | ∴ ¬E | Therefore Argument is <b>VALID</b> |
+
+## Week 3
+We have further discussed about the Rules of Inference and to do this we had answered some questions from the book to exercise and familiarize ourselves more about the said lesson. We tackled about using rules of inference to build arguments which led us to the homework from last week which was number 35 or the Superman problem.
+
+From the Example/Exercises part of Chapter 1.6, I have been able to answer the following:
+
+- From Example 7 on Using Rules of Inference to Build Arguments, I have able to answer what the next step should be after applying Contraposition, which is Hypothetical Syllogism of ¬q → ¬p and ¬p → r, which gives ¬q → r.
+
+- Exercise 4e If I worked all night on this homework, then I can answer all the exercises. If I answer all the exercises, I will understand the material. Therefore, if I worked all night on this homework, then I will understand the material.
+  
+  | Let | Statement |
+  | :---: | :---: |
+  | p | I work all night on this homework |
+  | q | I can answer all the exercises |
+  | r | I will understand the material |
+  
+  | Statement | Equivalence |
+  | :--- | :---: |
+  | If I worked all night on this homework, then I can answer all the exercises. | p → q |
+  | If I answer all the exercises, I will understand the material. | q → r |
+  | If I worked all night on this homework, then I will understand the material. | p → r |
+  
+  | Solution | Rule of Inference used |
+  | :---: | :---: |
+  | ((p → q) ∧ (q → r)) → (p → r) | <b>Hypothetical Syllogism</b> |
+
+- Example: If you get 100% in Finals, then you get 4.0 grade. You get 4.0 grade. Therefore, you got 100% in Finals.
+  Answer: If we convert this to logical equivalence, this will become q ∧ (p → q) → p.  Though this statement is not valid for it is not Tautology, where it should be and always true. To prove this, Truth Table method is used:
+  
+  | p | q | p → q | q ∧ (p → q) |
+  | :---: | :---: | :---: | :---: |
+  | T | T | T | T |
+  | T | F | F | F |
+  | F | T | T | T |
+  | F | F | T | F |
+
+  With the truth table shown above, it clearly states that this is not Tautology, therefore it is <b>Fallacy</b>. And it is also not valid because the equivalence should be <b>q ∧ (p → q) → q</b> to match the truth table.
+  
