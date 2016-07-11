@@ -320,3 +320,63 @@ Chapter 1.7 answered parts :
   | if x < 1 and y < 1 | then x + y < 2 |
   | x + y < 1 + 1 = | x + y < 2 |
   | <b>x + y < 2 =</b> | <b>x + y < 2</b> |
+
+## Week 4
+In the first part of the week, the class continued the lecture on Chapter 1.7 by practicing further some exercises from the book since introduction to proofs is really a complicated topic, most especially if the problems involved irrational numbers.
+
+Answered Parts for Chapter 1.7:
+
+- 29 Prove or disprove that if m and n are integers such that mn = 1, then either m = 1 and n = 1, or else m = −1 and n = −1.
+
+  Solution: If <i>p</i> then <i>q</i>.
+  
+  | p | q |
+  | ---: | :--- |
+  | mn = 1 | ((m=1)∧(n=1))∨((m=-1)∧(n=-1)) |
+  
+  Isolating m : m = 1/n<br>
+  
+  Substituting m on (m=1)∧(n=1) :<br>
+  (m=1/n) ∧ (n=1)<br>
+  (m=1/1) ∧ (n=1)<br>
+  (m=1) ∧ (n=1)<br>
+    
+  Substituting m on (m=-1)∧(n=-1) :<br>
+  (m=1/n) ∧ (n=-1)<br>
+  (m=1/-1) ∧ (n=-1)<br>
+  (m=-1) ∧ (n=-1)<br>
+    
+  Therefore, we proved that if m and n are integers such that mn = 1, then either m = 1 and n = 1, or else m = −1 and n = −1 to be true.
+  
+We then move to Chapter 1.8 and had only a brief introduction and answered an exercise to familiarize ourselves.
+Chapter 1.8 is about Proof Methods and Strategy. First, we learn about Exhaustive Proof. This proof exhaust all possibilities and is a special type of proof by cases for each case or possibility involves checking a single example. Secondly, we learn about Proof by Cases and like on the first one, this should cover all possible cases that arise in a theorem. The third one is the Uniqueness Proof. This proof has two parts, the Existence and the Uniqueness.
+  
+Answered Exercise for Chapter 1.8 :
+
+- 1 Prove that n^2 + 1 ≥ 2n when n is a positive integer with 1 ≤ n ≤ 4.
+
+  Solution :<br>
+  <b>at n=1:</b><br>
+  1^2 + 1 ≥ 2^1<br>
+  2 ≥ 2<br>
+    
+ <b>at n=2:</b><br>
+  2^2 + 1 ≥ 2^2<br>
+  5 ≥ 4<br>
+    
+  <b>at n=3:</b><br>
+  3^2 + 1 ≥ 2^3<br>
+  10 ≥ 8<br>
+  
+  <b>at n=4:</b><br>
+  4^2 + 1 ≥ 2^4<br>
+  17 ≥ 16<br>
+
+For the second meeting, we continued on Chapter 1.8 by each of us answering different exercises from the book.
+
+Answered Part:<br>
+- 3 Prove that if x and y are real numbers, then max(x, y) + min(x, y) = x + y. [Hint: Use a proof by cases, with the two cases corresponding to x ≥ y andx < y, respectively.]
+
+  Solution :<br>
+  If x ≥ y : max(x,y) + min(x,y) = <b>x + y</b><br>
+  If x < y : max(x,y) + min(x,y) = <b>y + x
