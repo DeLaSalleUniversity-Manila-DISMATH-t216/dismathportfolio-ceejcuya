@@ -379,4 +379,135 @@ Answered Part:<br>
 
   Solution :<br>
   If x ≥ y : max(x,y) + min(x,y) = <b>x + y</b><br>
-  If x < y : max(x,y) + min(x,y) = <b>y + x
+  If x < y : max(x,y) + min(x,y) = <b>y + x</b><br>
+  x + y = y + x are equal due to commutative property.<br><br>
+  
+- We further had our discussion on sets. A set is an unordered collection of objects and these objects are called elements or members. There are two ways to describe a set, one is the roster method, which is able to list all the members oa set, and the other is the set builder method, which is for larger values which usually reach infinity. Below is the table of commonly used sets when set builder method is used,<br>
+  
+  | Set Letter | Definition |
+  | :---: | :---: |
+  | N | set of natural numbers |
+  | Z | set of integers |
+  | Z+ | set of positive integers |
+  | Q | set of rational numbers |
+  | R | set of real numbers |
+  | R | set of positive real numbers |
+  | C | set of complex numbers |
+  
+- We then recall the notation for intervals of real numbers. Given that a and b are real numbers,<br>
+
+  | Interval | Definition |
+  | :---: | :---: |
+  | [a,b] | x such that a ≤ x ≤ b<br>also called as <b>CLOSED INTERVAL</b> |
+  | [a,b) | x such that a ≤ x < b |
+  | (a,b] | x such that a < x ≤ b |
+  | (a,b) | x such that a < x < b<br>also called as <b>OPEN INTERVAL</b> |
+
+- We discussed the definition of an Empty set as well. It is a special set that has no elements. This is also known as a null set and is denoted by ∅. The empty set can also be denoted by {}. Whereas a set with one element is called a singleton set.
+
+- Sets can be represented graphically by using Venn diagrams. The universal set U contains all the elements or objects and is represented by a rectangle.
+
+- Subsets are situations where the elements of one set are also the elements of the second set. Given that A and B are sets, and that A is a subset of B, we therefore use the notation A ⊆ B.
+
+- For instance there are exactly n distinct elements in set S where n is a positive integer. We then denote this as S is a finite set and n is the cardinality of S, which is |S|.
+
+- Power sets are made to consider all such combinations of elements of a set S. The power set of S is further denoted by P(S).
+
+Answered parts for Chapter 2.1:
+
+- 1a List the members of the set {x | x is a real number such that x2 = 1}.<br>
+  answer : <b>1 and -1</b>
+
+- 3c Determine whether the first is a subset of the second, the second is a subset of the first, or neither is a subset of the other: the set of flying squirrels, the set of living creatures that can fly.<br>
+  answer : <b>the set of flying squirrels is a subset of the set of living creatures that can fly.</b>
+
+- 6 Suppose that A = {2, 4, 6}, B = {2, 6}, C = {4, 6}, and D = {4, 6, 8}. Determine which of these sets are subsets of which other of these sets.<br>
+  answer : <b>B is a subset of A and C is a subset of D.</b>
+
+- 9b Determine whether this statement is true or false : ∅ ∈ {0}.<br>
+  answer : <b>False</b>
+
+- 10b Determine whether this statement is true or false : ∅ ∈ {∅, {∅}}.<br>
+  answer : <b>True</b>
+
+- 11b Determine whether this statement is true or false : {x} ⊆ {x}.<br>
+  answer : <b>True</b>
+
+- 27b Let A = {a, b, c, d} and B = {y, z}. Find : B × A.<br>
+  answer : <b>B x A = {(y,a),(y,b),(y,c),(y,d),(z,a),(z,b),(z,c),(z,d)}</b>
+
+- 30 Suppose that A × B = ∅, where A and B are sets. What can you conclude?<br>
+  answer : <b>A = Ø or B = Ø</b>
+
+## Week 5
+We discussed Chapter 5.1 which is Mathematical Induction. This was said to be included for our first quiz which was on July 14, 2016, Thursday. There are two steps in completing mathematical induction. The first one is the basis step, where we show that P(1) is true and the second step will be the inductive step, where we show or prove that for all positive integers k, if P(k) is true, then P(k+1) is also true. The opposite of induction is deduction, where we start from general or theory to specific, whereas the induction is from specific to general or theory.<br>
+
+Answered parts Chapter 5.1 :<br>
+
+- 3e Let P(n) be the statement that 12 + 22 +· · ·+n2 = n(n + 1)(2n + 1)/6 for the positive integer n : Complete the inductive step, identifying where you use the inductive hypothesis.<br>
+  Solution : <br>
+  
+  | P(n) | = 1^2 + 2^2 + ... + n^2 | = (n * (n+1) * (2n+1))/6 |
+  | :---: | ---: | :--- |
+  | P(n+1) | = 1^2 + 2^2 + ... + n^2 + (n+1)^2 | = ((n+1) * (n+2) * (2(n+1)+1))/6 |
+  | P(n+1) | = P(n) + (n+1)^2 | = ((n+1) * (n+2) * (2(n+1)+1))/6 |
+  | P(n+1) | = ((n * (n+1) * (2n+1))/6) + ((n+1)^2) | = ((n+1) * (n+2) * (2(n+1)+1))/6 |
+  | P(n+1) | = ((2n^3 + n^2 + 2n^2 + n)/6) + (n^2 + 2n + 1) | = (2n^3 + 6n^2 + 4n + 3n^2 + 9n + 6)/6 |
+  | P(n+1) | = (2n^3 + 3n^2 + n + 6n^2 + 12n + 6)/6 | = (2n^3 + 6n^2 + 4n + 3n^2 + 9n + 6)/6 |
+  | P(n+1) | = (2n^3 + 9n^2 + 13n + 6)/6 | = (2n^3 + 9n^2 + 13n + 6)/6 |
+
+- <i>July 14 - QUIZ 1 ; July 19 - CALL OFF</i>
+
+## Week 6
+After our first quiz, we had discussed about Chapter 2.3 which is all about Functions. Functions are also known or called as mappings or transformations. A function has two parts, the first one is the domain whereas the other is called codomain. There are three types of functions: <br>
+
+| Type | Definition |
+| :---: | :--- |
+| One-to-One (Injunction) | functions that never assign the same value to two different domain elements. |
+| Onto (Surjection) | every member of the codomain is the image of some element of the domain. |
+| One-to-One Correspondence (Bijection) | function is both one-to-one and onto |
+
+Answered Parts for Chapter 2.3:<br>
+
+- 3a Determine whether f is a function from the set of all bit strings to the set of integers if : f(S) is the position of a 0 bit in S.
+  answer : <b>Not a function</b>
+
+- 4c Find the domain and range of these functions : the function that assigns to a bit string the number of one bits in the string.<br>
+  answer : <b>Domain : bit string ; Range : positive integers</b><br><br>
+
+<B>Homework:</B>
+- 13 Which functions in Exercise 12 are onto?<br>
+  answer :
+
+  | Item | Answer |
+  | :---: | :---: |
+  | a) f (n) = n − 1 | ONTO |
+  | b) f (n) = n2 + 1 | NOT ONTO |
+  | c) f (n) = n3 | NOT ONTO |
+  | d) f (n) = ┌n/2┐ | ONTO |
+  
+## Week 7
+We continued our discussion on Chapter 2.3 which is about Functions by answering some exercises and our homework from the book.
+We also discussed briefly the floor and ceiling functions :<br>
+
+| Floor and Ceiling function | Definition |
+| :---: | :---: |
+| └x┘ | n if and only if n ≤ x < n + 1 |
+| ┌x┐ | n if and only if n − 1 < x ≤ n |
+| └x┘ | n if and only if x − 1 < n ≤ x |
+| ┌x┐ | n if and only if x ≤ n < x + 1 |
+| └-x┘ = -┌x┐ | |
+| ┌-x┐ = -└x┘ | |
+| └x + n┘ = └x┘ + n | |
+| ┌x + n┐ = ┌x┐ + n | |
+
+Answered parts for Chapter 2.3 :<br>
+
+- 20a Give an example of a function from N to N that is : one-to-one but not onto.<br>
+  answer : <b>n + 1</b>
+
+- 20d Give an example of a function from N to N that is : neither one-to-one nor onto.<br>
+  answer : <b>n * 0</b>
+
+- 22a Determine whether each of these functions is a bijection from R to R : f (x) = −3x + 4.<br>
+  answer : <b>Bijection</b>
