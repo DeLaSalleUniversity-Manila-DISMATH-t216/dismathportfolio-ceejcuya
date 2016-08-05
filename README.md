@@ -511,3 +511,63 @@ Answered parts for Chapter 2.3 :<br>
 
 - 22a Determine whether each of these functions is a bijection from R to R : f (x) = −3x + 4.<br>
   answer : <b>Bijection</b>
+
+## Week 8
+For this week, we have studied about Algorithms.An Algorithm is a finite sequence of instructions for performing a computation or for solving a problem. As an instruction gets larger or bigger, we often forget the basics of an algorithm. With this, we can check the said instruction using the properties of algorithm.
+
+| Property of Algorithm | Definition |
+| :---: | :--- |
+| Input | An algorithm should have input values from a specified set |
+| Output | Each set of input values should have some output values produced and these should be the solution to the problem |
+| Definiteness | Each step of the algorithm must be defined precisely |
+| Correctness | An algorithm should produce the produce the correct output values for each set of input; mainly focuses on the output |
+| Finiteness | An algorithm should produce the desired output after a finite or limited number of steps |
+| Effectiveness | Each step of the algorithm must be performed possibly and exactly ; mainly focuses both on the procedure and the output |
+| Generality | The procedure should be applicable for all problems of the desired form, not just for a particular set of input values |
+
+We then discussed about searching and sorting algorithms. Stated below are the kinds of searching and sorting algorithms:
+
+| Searching Algorithm | Definition |
+| :---: | :--- |
+| Linear Search | also known as sequential search<br> begins by comparing an input x to a set from A1 to AN. If x is equal to A1 then the solution will be the location of A1. If not, then x will be compared to the next value which is A2. The process will continue until x has successfully found its match in the sequence. |
+| Binary Search | begins by comparing the element to be located to the middle term of the list. The list is then splitted into two smaller groups. The search continues by restricting the search to the appropriate group based on the comparison of the element to be located and the middle term. If the number of elements is odd, then we follow ┌(x/2)┐ to determine where to split the elements into two groups. |
+
+<b>Sorting</b> is putting these elements into a list in which the elements are in a certain or desired order.
+
+| Sorting Algorithm | Definition |
+| :---: | :--- |
+| Bubble Sort | It puts a list into increasing order by successively comparing adjacent elements, interchanging them if they are in the wrong order. To carry out the bubble sort, the basic operation is performed by interchanging a larger element with a smaller one following it, starting at the beginning of the list, for a full pass. The procedure is repeated until the sort is complete. |
+| Insertion Sort Algorithm | To sort a list with n elements, the insertion sort begins with the second element. It compares this second element with the first element and inserts it before the first element. The third element is then compared with the first element and if it is larger than the first element, it is compared with the second element. It is inserted into the correct position among the first three elements. |
+
+We further discussed about greedy algorithms. They are algorithms that make what seems to be the best choice. We further discussed this by having an example on coins.
+
+Answered parts in Chapter 3.1 :
+
+- definition of algorithm
+- definition of finiteness
+- example on binary search
+- example on insertion sort
+- Applying greedy algorithm on coins : How to make 77 cents?<br>
+  Answer :<br>
+  
+  | Coins | Quantity |
+  | :---: | :---: |
+  | Quarter | 3 |
+  | Penny | 2 |
+
+- 2b Determine which characteristics of an algorithm described in the text (after Algorithm 1) the following procedures have and which they lack.<br>
+  Answer : <b>Effectiveness</b><br>
+
+- 2c Determine which characteristics of an algorithm described in the text (after Algorithm 1) the following procedures have and which they lack.<br>
+  Answer : <b>Input</b><br>
+
+- 11 Describe an algorithm that interchanges the values of the variables x and y, using only assignments. What is the minimum number of assignment statements needed to do this?<br>
+  Answer :<br>
+
+  Input : x and y<br>
+  Procedure:<br>
+  a = x <br>
+  x = y <br>
+  y = a <br>
+  
+On the following meeting, we further discussed about the growth of functions by discussing about the Big-O notation. With the use of Big-O notation, the growth of a function is estimated without worrying about constant multipliers or smaller order terms. With the use of Big-O notation, one does not have to worry about the hardware and software used to implement in algorithm. Moreover, using this notation, one can assume that the different operations used in an algorithm take the same time, which simplifies the analysis considerably.
