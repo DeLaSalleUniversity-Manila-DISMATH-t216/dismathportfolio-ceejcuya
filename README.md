@@ -571,3 +571,17 @@ Answered parts in Chapter 3.1 :
   y = a <br>
   
 On the following meeting, we further discussed about the growth of functions by discussing about the Big-O notation. With the use of Big-O notation, the growth of a function is estimated without worrying about constant multipliers or smaller order terms. With the use of Big-O notation, one does not have to worry about the hardware and software used to implement in algorithm. Moreover, using this notation, one can assume that the different operations used in an algorithm take the same time, which simplifies the analysis considerably.
+
+## Week 9
+- For this week, we had further discussed about the Big-O Notation since the topic itself is very confusing. Going back to its definition, the Big-O Notation is a comparison of algorithms and it measures them through their complexity.
+
+- The first one is the constant complexity or the Big-O of 1. For example, it displays an array with 100 elements, the graph itself does not grow. Even if the array is 1000 elements, the graph will still not grow for it is constant or displays the array only once. Moreover, the constant complexity or Big-O of 1 is the best graph because of its simplicity.
+
+- The constants, C and k are called witnesses to the relationship f(x) is 0(g(x)). C is the multiplier whereas k is the value where the f(x) and g(x) had intersected, where g(x) has surpassed f(x). As long as any function would be able to overtake or surpass a certain function, f(x) for example, that function is still considered as Big-O.
+
+- n! is the worst graph because the more complex the function or algorithm gets, the more time it needs.
+
+- We had further discussed Big-Omega and Big-Theta. Big-Omega is the opposite of Big-O, if the Big-O concentrates on the upper bound, Big-Omega then is concentrated on the lower bound. Yet both the Big-O and the Big-Omega have the same disadvantage, they have many answers for there is no limit. That is why Big-Theta is formed where it is a combination of the Big-O and the Big-Omega.
+
+Answered Parts:
+- example 5 from the book
